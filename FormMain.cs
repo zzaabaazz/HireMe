@@ -25,5 +25,11 @@ namespace HireMe
             var myForm = new FormTask1();
             myForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var myForm = new FormTask2();
+            myForm.Show();
+        }
     }
 }
