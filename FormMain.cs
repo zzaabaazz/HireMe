@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace HireMe
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
+            button1.Text = "Задание 1";
+            button2.Text = "Задание 2";
+            button3.Text = "Задание 3";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var myForm = new FormTask1();
+            myForm.Show();
         }
     }
 }
