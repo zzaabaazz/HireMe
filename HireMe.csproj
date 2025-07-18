@@ -58,6 +58,12 @@
     <Compile Include="FormTask1.Designer.cs">
       <DependentUpon>FormTask1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTask2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTask2.Designer.cs">
+      <DependentUpon>FormTask2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMain.resx">

@@ -24,16 +24,6 @@ namespace HireMe
             buttonDeCompress.Text = "Декомпрессия";
         }
 
-        private void RemovePlaceholderText(object sender, EventArgs e)
-        {
-            TextBox textBox = sender as TextBox;
-            if (textBox != null && textBox.Text == "Развернутая строка")
-            {
-                textBox.Text = "";
-                textBox.ForeColor = Color.Black;
-            }
-        }
-
         private void buttonCompress_Click(object sender, EventArgs e)
         {
             textBox2.Text = CompressString(textBox1.Text);
