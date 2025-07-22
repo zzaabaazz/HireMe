@@ -95,7 +95,5 @@ namespace HireMe
             }
             return output.ToString();
         }
-
-
     }
 }

@@ -100,7 +100,7 @@
             this.Controls.Add(this.buttonCompress);
             this.Controls.Add(this.textBox1);
             this.Name = "FormTask1";
-            this.Text = "Form2";
+            this.Text = "FormTask1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -31,5 +31,15 @@ namespace HireMe
             var myForm = new FormTask2();
             myForm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Используем фиксированные пути к файлам
+            string inputFile = "input.log";
+            string outputFile = "output.log";
+
+            var task3 = new ClassTask3();
+            task3.Run(inputFile, outputFile);
+        }
     }
 }
